@@ -30,7 +30,7 @@ class color:
 
 # access to the api
 base_url = 'https://api.genius.com'
-client_access_token = 'WnBhhpqv-3hf_AsyM19Nq7ovuIv36O_KDAXD6g-2dLxQW9Gy8LapP5JyT1FBFbUS'
+client_access_token = ''
 token = 'Bearer {}'.format(client_access_token)
 headers = {'Authorization': token}
 genius = lyricsgenius.Genius(client_access_token)
