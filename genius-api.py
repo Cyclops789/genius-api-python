@@ -103,7 +103,7 @@ elif g.isdigit():
 else:
 	print(color.RED + 'That is not a number, please put the id!' + color.END)
 	exit()
-# get some of the artist's song
+# get some of the artist's songs
 def song_of_artist():
 	artist_songs = g
 	path_songs = 'artists/{}/songs'.format(artist_songs)
