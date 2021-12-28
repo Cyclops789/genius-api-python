@@ -143,7 +143,7 @@ def lyrics():
 			ju = "{}.txt".format(n)
 			f = open(ju, "w+")
 			f.write(d)
-			print(color.GREEN + 'Successfully made ' + ju + color.END)
+			print(color.GREEN + 'Successfully save the lyrics ' + ju + color.END)
 		b = input(color.PURPLE + 'Do you want to get the Lyrics of an other song? [y/N]: ' + color.END)
 		if b == 'n':
 			exit()
